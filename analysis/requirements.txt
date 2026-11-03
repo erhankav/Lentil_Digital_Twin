@@ -1,0 +1,20 @@
+# Python packages of the analysis (Python 3.11, 64-bit).
+# Versions of the environment in which the analyses of the paper were run.
+numpy==2.4.6
+pandas==3.0.5
+scipy==1.17.1
+scikit-learn==1.9.1
+optuna==5.0.0
+xgboost==3.2.0
+lightgbm==4.7.0
+catboost==1.2.10
+interpret==0.7.8
+tabpfn==9.1.0
+matplotlib==3.11.2
+openpyxl==3.1.5
+huggingface_hub==1.30.0
+# PyTorch (TabPFN and the 1-D CNN). The analyses used the CUDA 12.8 build (torch==2.11.0+cu128) on an NVIDIA GPU;
+# install the build that matches your system from https://pytorch.org before installing this list, e.g.
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128   (GPU)
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cpu     (CPU only)
+torch==2.11.0

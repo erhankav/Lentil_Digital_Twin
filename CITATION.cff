@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this console or data, please cite the accompanying article (citation details will be added on publication)."
+title: "Lentil Digital Twin: console and microwave measurement archive"
+type: software
+abstract: >-
+  Digital twin console and measurement archive for a 2-4 GHz free-space microwave transmission system with an
+  integrated load cell, used to predict the moisture content of green (Ceren) and red (Ciftci) lentils over four
+  harvest seasons (2014-2017). The archive contains 979 records at 41 frequencies with reference moisture content
+  and gravimetric bulk density. The console replays the records through the digital twin (digital shadow level)
+  with the predictions of the frozen models embedded.
+authors:
+  - given-names: Necati
+    family-names: Çetin
+    affiliation: "Ankara University, Ankara, Türkiye"
+    email: nctcetin@ankara.edu.tr
+  - given-names: Kamil
+    family-names: Saçılık
+    affiliation: "Ankara University, Ankara, Türkiye"
+  - given-names: Erhan
+    family-names: Kavuncuoğlu
+    affiliation: "Cumhuriyet University, Sivas, Türkiye"
+    email: ekavuncuoglu@cumhuriyet.edu.tr
+  - given-names: Fernando
+    family-names: Auat Cheein
+    affiliation: "Harper Adams University, Newport, Shropshire, UK"
+keywords:
+  - digital twin
+  - free-space microwave
+  - lentil
+  - moisture content
+  - calibration transfer
+  - process control
